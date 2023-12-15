@@ -94,7 +94,7 @@ footer {
     text-align: center;
 }
 
-/* Phase 3: Style the main page sections */
+/* Phase 4: Style the footer list */
 ul.clfooter {
     text-align: center;
     border-top: 1px solid gray;
@@ -103,4 +103,9 @@ ul.clfooter {
 ul.clfooter > li {
     display: inline;
     padding-right: 5px;
+}
+
+/* Phase 5: Add pseudo-elements */
+h4.ban::before {
+    content: '☮️'
 }
